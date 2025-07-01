@@ -14,12 +14,7 @@ VERSION?=$(shell git describe --long --abbrev=7 | sed 's/^v//;s/\([^-]*-g\)/r\1/
 
 all:
 
-check: shellcheck
-
-shellcheck:
-	shellcheck -s bash $(SCRIPT_FILES)
-
-install: install-scripts install-profiles install-doc install-man
+install: install-scripts install-profiles
 
 install-scripts:
 	install -vDm 755 archiso/mkarchiso -t "$(BIN_DIR)/"
@@ -29,12 +24,4 @@ install-profiles:
 	install -d -m 755 $(PROFILE_DIR)
 	cp -a --no-preserve=ownership configs $(PROFILE_DIR)/
 
-install-doc:
-	install -vDm 644 $(DOC_FILES) -t $(DOC_DIR)
-
-install-man:
-	@printf '.. |version| replace:: %s\n' '$(VERSION)' > man/version.rst
-	install -d -m 755 $(MAN_DIR)/man1
-	rst2man man/mkarchiso.1.rst $(MAN_DIR)/man1/mkarchiso.1
-
-.PHONY: check install install-doc install-man install-profiles install-scripts shellcheck
+.PHONY: all install install-profiles install-scripts

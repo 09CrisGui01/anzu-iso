@@ -62,7 +62,7 @@ Run the following to boot the iso using UEFI:
 ```
 
 # Contribute
-Development of Anzu takes place on Codeberg: https://gitlab.archlinux.org/archlinux/anzu-iso.
+Development of Anzu takes place [on Codeberg](https://codeberg.org/09CrisGui01/anzu-iso).
 
 Please read the [Code of Conduct](./CODE_OF_CONDUCT.md) before contributing, 
 to understand what actions will and will not be tolerated.

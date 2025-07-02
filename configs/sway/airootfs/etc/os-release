@@ -1,0 +1,9 @@
+NAME="Anzu"
+PRETTY_NAME="Anzu"
+ID=anzu
+BUILD_ID=rolling
+ANSI_COLOR="38;5;49"
+HOME_URL="https://codeberg.org/09CrisGui01/anzu-iso"
+DOCUMENTATION_URL="https://codeberg.org/09CrisGui01/anzu-iso/wiki"
+BUG_REPORT_URL="https://codeberg.org/09CrisGui01/anzu-iso/issues"
+LOGO=anzu-logo

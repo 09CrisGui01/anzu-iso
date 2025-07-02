@@ -1,0 +1,180 @@
+# BASE
+linux
+linux-lts
+linux-headers
+linux-lts-headers
+linux-atm
+linux-firmware
+linux-firmware-marvell
+base
+base-devel
+archlinux-keyring
+cryptsetup
+device-mapper
+diffutils
+
+### X system
+#mesa
+#mesa-utils
+##nvidia
+#nvidia-utils
+#vulkan-nouveau
+#xf86-input-libinput
+#xf86-video-amdgpu
+#xf86-video-ati
+#xorg-server
+#xorg-xdpyinfo
+#xorg-xinit
+#xorg-xinput
+#xorg-xkill
+#xorg-xrandr
+
+## Network hardware
+b43-fwcutter
+#broadcom-wl-dkms removal candidate handling on the livesession
+
+## General hardware
+lsscsi
+sg3_utils
+smartmontools
+usbutils
+
+## Audio hardware
+alsa-firmware
+alsa-plugins
+alsa-utils
+gst-libav
+gst-plugin-pipewire
+gst-plugins-bad
+gst-plugins-ugly
+libdvdcss
+pavucontrol
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+rtkit
+sof-firmware
+wireplumber
+
+# SOFTWARE
+
+## General system
+bash-completion
+dmidecode
+dialog
+dmraid
+downgrade
+duf
+fakeroot
+freetype2
+git
+glances
+python-packaging
+gpm
+gptfdisk
+haveged
+hwdetect
+hwinfo
+inxi
+libgsf
+libopenraw
+plocate
+ntp
+pacman-contrib
+pkgfile
+poppler-glib
+power-profiles-daemon
+rebuild-detector
+reflector
+rsync
+tldr
+unrar
+unzip
+wget
+xdg-user-dirs
+xdg-utils
+xz
+
+## Network
+bind
+dnsmasq
+ethtool
+iwd
+modemmanager
+nbd
+ndisc6
+net-tools
+netctl
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+nss-mdns
+openconnect
+openvpn
+ppp
+pptpclient
+rp-pppoe
+usb_modeswitch
+vpnc
+whois
+wireless-regdb
+#wireless_tools
+wpa_supplicant
+xl2tpd
+
+## Bluetooth
+bluez
+bluez-utils
+
+## Firewall
+firewalld
+python-pyqt5
+python-capng
+
+# ISO
+
+## Live iso specific
+arch-install-scripts
+memtest86+
+memtest86+-efi
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+pv
+syslinux
+
+## Live iso tools
+clonezilla
+efitools
+fsarchiver
+gpart
+gparted
+grsync
+partitionmanager
+hdparm
+
+# DESKTOP
+
+## DESKTOP MANAGER
+sway
+swayidle
+swaybg
+swaylock
+wmenu
+foot
+
+## Browser
+firefox
+
+## System
+meld
+
+## Fonts
+cantarell-fonts
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
+noto-fonts-extra
+ttf-bitstream-vera
+ttf-dejavu
+ttf-liberation
+ttf-opensans

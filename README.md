@@ -35,30 +35,30 @@ packages are required:
 ## Build
 ### Anzu ISO
 ```sh
-   sudo mkarchiso -v -w . -o out/ .
+   sudo mkanzuiso -v -w . -o out/ .
 ```
 
 ### Anzu ISO with log
 ```sh
-   sudo mkarchiso -v -w . -o out/ . 2>&1 | tee "anzu-iso_$(date -u +'%Y.%m.%d-%H:%M').log"
+   sudo mkanzuiso -v -w . -o out/ . 2>&1 | tee "anzuiso_$(date -u +'%Y.%m.%d-%H:%M').log"
 ```
 
 ## Testing
-The convenience script `run_archiso` is provided to boot into the medium 
+The convenience script `run_anzuiso` is provided to boot into the medium 
 using qemu. It is advised to consult its help output:
 
 ```sh
-   run_archiso -h
+   run_anzuiso -h
 ```
 
 Run the following to boot the iso using BIOS:
 ```sh
-    run_archiso -i path/to/an/anzu.iso
+    run_anzuiso -i path/to/an/anzu.iso
 ```
 
 Run the following to boot the iso using UEFI:
 ```sh
-   run_archiso -u -i path/to/an/anzu.iso
+   run_anzuiso -u -i path/to/an/anzu.iso
 ```
 
 # Contribute
